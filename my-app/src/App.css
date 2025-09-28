@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Qwigley&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Story+Script&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{margin: 0px;}
+
+body{
+  font-family: "poppins", sans-serif;
+}
+
+.container{
+  max-width: 1280px;
+  margin: 0px 12%
+}
+
+nav{
+  /* border: 1px solid rgba(0, 0, 0, 0.429); */
+  display: flex;
+  height: 72px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ nav ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.login{
+  padding: 6px 16px;
+  background-color: #D01C28;
+  border: none;
+  color: white;
+}
+ /* Hero Section */
+
+ .hero{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+ }
+
+ .hero-content{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+ }
+
+.hero-content h1{
+  font-weight: 800;
+  font-size: 5rem;
+  line-height: 80px;
+ }
+
+ .hero-content p{
+  color: #5A5959;
+  font-weight: 500;
+  font-size: 0.8rem;
+  max-width: 320px;
+ }
+
+ .btn-container{
+  max-width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ .btn-container button{
+  padding: 5px 23px;
+  height: 30px;
+  font-family: "inter";
+  font-size: 13px;
+ }
+
+ .shop-btn{
+  background-color:#D01C28;
+  color: white;
+  font-weight: 500;
+  border: none;
+ }
+
+ .Category-btn{
+  border: 1px solid #000000;
+  font-weight: 600;
+  color: #5A5959;
+ }
+
+ .shopping{
+  max-width: 105px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+ }
+
+ .shopping p{
+   font-family: "inter";
+   font-size: 12px;
+   font-weight: 400;
+ }
+
+ .brands{
+  max-width: 60px;
+  display: flex;
+  justify-content: space-between;
+ }
+
+  .brands img{
+    height: 25px;
+  }
